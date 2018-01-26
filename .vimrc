@@ -1,4 +1,4 @@
-" Features 
+" Features
 set nocompatible
 filetype indent plugin on
 syntax on
@@ -8,6 +8,11 @@ set hidden
 set wildmenu
 set showcmd
 set hlsearch
+
+" Appearance
+colorscheme zazen
+set background=dark
+let g:airline_theme='minimalist'
 
 " Usability
 set ignorecase
@@ -25,7 +30,6 @@ set cmdheight=2
 set notimeout ttimeout ttimeoutlen=200
 set pastetoggle=<F11>
 set tabpagemax=20
-set showtabline=2
 
 " Line Numbering
 :set number relativenumber
@@ -37,8 +41,8 @@ set showtabline=2
 :augroup END
 
 " Indentation
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 " Mappings
@@ -46,5 +50,5 @@ let mapleader = "\<Space>"
 inoremap jk <ESC>
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
-
-
+imap hh <C-y>,
+map <C-n> :NERDTreeToggle<CR>
