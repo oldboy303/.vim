@@ -10,7 +10,7 @@ set showcmd
 set hlsearch
 
 " Appearance
-colorscheme zazen
+colorscheme hilal
 set background=dark
 let g:airline_theme='minimalist'
 
@@ -30,6 +30,7 @@ set cmdheight=2
 set notimeout ttimeout ttimeoutlen=200
 set pastetoggle=<F11>
 set tabpagemax=20
+set clipboard=unnamed
 
 " Line Numbering
 :set number relativenumber
@@ -52,3 +53,6 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 imap hh <C-y>,
 map <C-n> :NERDTreeToggle<CR>
+
+" Misc
+set noswapfile
