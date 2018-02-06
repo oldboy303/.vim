@@ -10,7 +10,7 @@ set showcmd
 set hlsearch
 
 " Appearance
-colorscheme hilal
+colorscheme strange
 set background=dark
 let g:airline_theme='minimalist'
 
