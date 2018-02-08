@@ -53,6 +53,7 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 imap hh <C-y>,
 map <C-n> :NERDTreeToggle<CR>
+nmap gm :LivedownToggle<CR>
 
 " Misc
 set noswapfile
